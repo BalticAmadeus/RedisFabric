@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "RedisApplication", "RedisApplication\RedisApplication.sfproj", "{23725041-C0A1-4D15-9060-9F14956CE3EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSentinelService", "RedisSentinelService\RedisSentinelService.csproj", "{39E10163-A790-4581-B356-1652514E2454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23725041-C0A1-4D15-9060-9F14956CE3EB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{23725041-C0A1-4D15-9060-9F14956CE3EB}.Debug|x64.ActiveCfg = Debug|x64
+		{23725041-C0A1-4D15-9060-9F14956CE3EB}.Debug|x64.Build.0 = Debug|x64
+		{23725041-C0A1-4D15-9060-9F14956CE3EB}.Debug|x64.Deploy.0 = Debug|x64
+		{23725041-C0A1-4D15-9060-9F14956CE3EB}.Release|Any CPU.ActiveCfg = Release|x64
+		{23725041-C0A1-4D15-9060-9F14956CE3EB}.Release|x64.ActiveCfg = Release|x64
+		{23725041-C0A1-4D15-9060-9F14956CE3EB}.Release|x64.Build.0 = Release|x64
+		{23725041-C0A1-4D15-9060-9F14956CE3EB}.Release|x64.Deploy.0 = Release|x64
+		{39E10163-A790-4581-B356-1652514E2454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E10163-A790-4581-B356-1652514E2454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E10163-A790-4581-B356-1652514E2454}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{39E10163-A790-4581-B356-1652514E2454}.Debug|x64.Build.0 = Debug|Any CPU
+		{39E10163-A790-4581-B356-1652514E2454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E10163-A790-4581-B356-1652514E2454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E10163-A790-4581-B356-1652514E2454}.Release|x64.ActiveCfg = Release|Any CPU
+		{39E10163-A790-4581-B356-1652514E2454}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF3DF59B-68C5-48F4-929A-7B070BBB99E0}
+	EndGlobalSection
+EndGlobal
