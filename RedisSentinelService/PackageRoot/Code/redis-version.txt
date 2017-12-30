@@ -1,0 +1,2 @@
+Redis 3.0.504 Windows x64 build
+from https://github.com/MicrosoftArchive/redis/releases
