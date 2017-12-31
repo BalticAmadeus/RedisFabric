@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "RedisApplication", "RedisApplication\RedisApplication.sfproj", "{23725041-C0A1-4D15-9060-9F14956CE3EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSentinelService", "RedisSentinelService\RedisSentinelService.csproj", "{39E10163-A790-4581-B356-1652514E2454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisSentinelService", "RedisSentinelService\RedisSentinelService.csproj", "{39E10163-A790-4581-B356-1652514E2454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDefaultService", "RedisDefaultService\RedisDefaultService.csproj", "{CC9AB4AD-1D3D-4CCE-B4C8-3B7BB6D7150D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{39E10163-A790-4581-B356-1652514E2454}.Release|Any CPU.Build.0 = Release|Any CPU
 		{39E10163-A790-4581-B356-1652514E2454}.Release|x64.ActiveCfg = Release|Any CPU
 		{39E10163-A790-4581-B356-1652514E2454}.Release|x64.Build.0 = Release|Any CPU
+		{CC9AB4AD-1D3D-4CCE-B4C8-3B7BB6D7150D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9AB4AD-1D3D-4CCE-B4C8-3B7BB6D7150D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9AB4AD-1D3D-4CCE-B4C8-3B7BB6D7150D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CC9AB4AD-1D3D-4CCE-B4C8-3B7BB6D7150D}.Debug|x64.Build.0 = Debug|Any CPU
+		{CC9AB4AD-1D3D-4CCE-B4C8-3B7BB6D7150D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9AB4AD-1D3D-4CCE-B4C8-3B7BB6D7150D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9AB4AD-1D3D-4CCE-B4C8-3B7BB6D7150D}.Release|x64.ActiveCfg = Release|Any CPU
+		{CC9AB4AD-1D3D-4CCE-B4C8-3B7BB6D7150D}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

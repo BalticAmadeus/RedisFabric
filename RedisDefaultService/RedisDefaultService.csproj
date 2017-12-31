@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <IsServiceFabricServiceProject>True</IsServiceFabricServiceProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ServiceFabric" Version="6.0.219" />
+    <PackageReference Include="Microsoft.ServiceFabric.Data" Version="2.8.219" />
+    <PackageReference Include="Microsoft.ServiceFabric.Services" Version="2.8.219" />
+  </ItemGroup>
+
+</Project>

@@ -162,7 +162,7 @@ namespace RedisSentinelService
             catch (Exception ex)
             {
                 // It's entirely possible that we don't have anything on the other end
-                ServiceEventSource.Current.ServiceMessage(this.Context, "ShutdownCurrentInstance: {0} {1}", ex.GetType(), ex.Message);
+                ServiceEventSource.Current.ServiceMessage(this.Context, "ShutdownSentinel: {0} {1}", ex.GetType(), ex.Message);
             }
         }
     }
